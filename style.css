@@ -34,6 +34,10 @@
     left: 3px;
     bottom: 3px;
 }
+.whatsapp-link:hover{
+    transition: 1s;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.596);
+}
 
 /*Body*/
 
@@ -61,6 +65,7 @@ header > div{
     color: white;
     font-size: 2.2em;
     margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.63);
 }
 .logo-nav{
     margin-top: 10px;
@@ -92,18 +97,22 @@ header > div{
 }
 
 /* banrers carrossel*/
+#banners-products{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.582);
+}
 
 /* presentation */
 #presentation{
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
-    padding: 20px 50px;
+    padding: 50px 50px 20px;
 
 }
 .presentation-img{
     height: 600px;
     width: 500px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.623);
 }
 
 .text-presentation{
@@ -119,8 +128,9 @@ header > div{
 #montage{
     background-color: rgb(78, 78, 78);
     text-align: center;
-    padding: 20px 0px;
+    padding: 50px 0px 20px 0px;
     color: white;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.712);
 }
 #montage > h3{
     margin-bottom: 40px;
@@ -152,7 +162,7 @@ header > div{
     font-size: 2.5em;
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    margin: 40px 0px 20px 0px;
 }
 .body-itens{
     display: flex;
@@ -166,21 +176,69 @@ header > div{
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
     width: 300px;
     border: solid black 1px;
     border-radius: 5px 5px ;
     padding: 30px 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+    background-color: rgba(7, 2, 51, 0.952);
 }
-.vest{
+.itens-products:hover{
+    transition: 0.7s;
+    margin: 0px 15px ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
+}
+
+.tag-camiseta{
     background: gray url(img/tag01.jpg) center center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: inherit;
+}
+.tag-polo{
+    background:  url(img/tag02.png) right top no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-social{
+    background: gray url(img/tag03.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-calca{
+    background: gray url(img/tag05.png) center bottom no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-moletom{
+    background: gray url(img/tag06.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-bone{
+    background: gray url(img/tag04.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-jaqueta{
+    background: gray url(img/tag07.png) center top no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+.tag-sueter{
+    background: gray url(img/tag08.png) center top no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
 }
 .graf{
-    background: gray url(img/tag03.jpg) left bottom no-repeat;
+    background: gray url(img/tag30.jpg) center bottom no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+.serv{
+
+}
+
 /* gallery */
 #gallery {
     background: rgb(78, 78, 78);

@@ -1,5 +1,15 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+
 /*Whatsapp Button*/
 
 .whatsapp-link{
@@ -30,7 +40,7 @@
 /*header*/
 header{
     height: 100vh;
-    background: url('img/pexels-pixabay-325876.jpg') center no-repeat;
+    background: url('img/capa04.jpg') center right no-repeat;
     background-size: cover;
     
 }
@@ -44,18 +54,18 @@ header > div{
     transform: translate(-50%,-50%);
 }
 .logo-header {
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
 }
 .sublogo{
     color: white;
-    font-size: 1.3em;
+    font-size: 2.2em;
     margin-top: 20px;
 }
 .logo-nav{
     margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Menu */
@@ -70,15 +80,18 @@ header > div{
 
 }
 .nav-topics{
+    font-size: 2em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 30px 50px;
+    gap: 80px 80px;
 }
 
 .d-block{
-    height: 300px;
+    height: 600px;
 }
+
+/* banrers carrossel*/
 
 /* presentation */
 #presentation{
@@ -89,8 +102,17 @@ header > div{
 
 }
 .presentation-img{
-    height: 250px;
-    width: 250px;
+    height: 600px;
+    width: 500px;
+}
+
+.text-presentation{
+    font-size: 1.8em;
+    text-align: justify;
+}
+.text-presentation > h3{
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 /* montage */
@@ -102,45 +124,68 @@ header > div{
 }
 #montage > h3{
     margin-bottom: 40px;
+    font-size: 3em;
 }
 #montage > div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 2em;
 }
 .instructer{
-    max-width: 150px;
+    max-width: 300px;
 }
 
 /* Services */
 #list-services{
     padding: 50px 5%;
+    background-color: #4fb0f00c;
 }
 #list-services > h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    font-size: 4em;
 }
-.body-tab{
+#list-services > h3 {
+    font-size: 2.5em;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.body-itens{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 20px;
     align-items: center;
 }
 .itens-products{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
     text-align: center;
-    width: 150px;
+    width: 300px;
     border: solid black 1px;
     border-radius: 5px 5px ;
-    padding: 10px 0px;
+    padding: 30px 5px;
 }
-
+.vest{
+    background: gray url(img/tag01.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.graf{
+    background: gray url(img/tag03.jpg) left bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* gallery */
 #gallery {
     background: rgb(78, 78, 78);
     padding: 50px 5%;
+
 }
 #gallery > h3 {
     color: #ffffff;
@@ -158,9 +203,10 @@ header > div{
 /* Contact */
 
 .contact {
-    height: 500px;
-    background: url('img/pexels-adam-lukac-773958.jpg') center no-repeat;
+    height: 80vh;
+    background: url('img/contato04.jpg') center center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -171,12 +217,12 @@ header > div{
 }
 /*phone*/
 .contact-numbers h3 {
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     text-shadow: 2px 2px 1px black;
 }
 .contact-numbers p{
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
 }
 .contact-numbers a{
@@ -193,12 +239,12 @@ header > div{
 }
 .contact-social h3 {
     margin-top: 30px;
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     text-shadow: 2px 2px 1px black;
 }
 .contact-social a{
-    font-size: 9em;
+    font-size: 10em;
 }
 .contact p:hover{
     color: white;
@@ -212,8 +258,6 @@ footer{
     background-color: #000000;
     color: #ffffff;
     padding-top: 10px;
-    margin: 0px 0px;
+    
 }
-footer p {
-    margin-bottom: 0px;
-}
+

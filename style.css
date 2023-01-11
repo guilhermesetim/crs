@@ -189,7 +189,7 @@ header > div{
 /* Lista de produtos */
 #list-services{
     padding: 50px 5%;
-    background-color: var(--cor-azul);
+    background-color: var(--cor-branco);
 }
 #list-services > h2 {
     display: flex;

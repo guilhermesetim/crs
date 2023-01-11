@@ -74,6 +74,9 @@ header > div{
 }
 
 /* Menu */
+#menu-burguer {
+    display: none;
+}
 .nav-header{
     display: flex;
     flex-flow: row nowrap;
@@ -91,7 +94,25 @@ header > div{
     justify-content: center;
     gap: 80px 80px;
 }
+.nav-topics-mobile {
+    font-size: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    text-align: center;
+    gap: 0px 0px;
+    border-top: 2px solid black;
+    margin-left: -35px;
 
+}
+.nav-topics-mobile > li {
+    color: #fff;
+    background-color: rgb(78, 78, 78);
+    border-bottom: 2px solid black;
+}
+#mobile-menu {
+    display: none;
+}
 .d-block{
     height: 600px;
 }
@@ -128,7 +149,7 @@ header > div{
 #montage{
     background-color: rgb(78, 78, 78);
     text-align: center;
-    padding: 50px 0px 20px 0px;
+    padding: 50px 5px 20px 5px;
     color: white;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.712);
 }
@@ -141,7 +162,7 @@ header > div{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .instructer{
     max-width: 300px;
@@ -186,7 +207,7 @@ header > div{
 }
 .itens-products:hover{
     transition: 0.7s;
-    margin: 0px 15px ;
+    margin: 0px 2px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
 }
 
@@ -235,15 +256,18 @@ header > div{
     background-size: cover;
     background-attachment: fixed;
 }
-.serv{
-
-}
 
 /* gallery */
 #gallery {
     background: rgb(78, 78, 78);
     padding: 50px 5%;
-
+    
+}
+.gallery-square{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+   justify-content: center;
 }
 #gallery > h3 {
     color: #ffffff;
@@ -251,9 +275,17 @@ header > div{
     margin-bottom: 30px;
     font-size: 3em;
 }
-.image-modal{
+
+.gallery-ideia {
     height: 300px;
     width: 300px;
+    border-radius: 5px 5px;
+    border: 5px solid white;
+}
+
+.gallery-ideia:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.753);
 }
 
 
@@ -261,7 +293,6 @@ header > div{
 /* Contact */
 
 .contact {
-    height: 80vh;
     background: url('img/contato04.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -278,6 +309,7 @@ header > div{
     font-size: 4em;
     color: white;
     text-shadow: 2px 2px 1px black;
+    text-align: center;
 }
 .contact-numbers p{
     font-size: 4em;
@@ -316,6 +348,5 @@ footer{
     background-color: #000000;
     color: #ffffff;
     padding-top: 10px;
-    
 }
 

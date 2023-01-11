@@ -1,0 +1,100 @@
+@media screen and (max-width: 767px) {
+    /*  WhatsApp */
+    .whatsapp-link{
+        width: 100%;
+        height: 50px;
+        bottom: 0%;
+        right: 0px;
+        border-radius: 15px 15px 0px 0px;
+        font-size: 35px;
+    }
+
+    .whatsapp-link .bi-whatsapp{
+        font-size: 30px;
+               
+    }
+    /*  Inicio  */
+    .logo-header {
+        height: 220px;
+        width: 220px;
+    }
+    .sublogo{
+        color: white;
+        font-size: 1.2em;
+        margin-top: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.63);
+    }
+
+    /* Menu */
+    .nav-heards {
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+ 
+    .nav-topics{
+        display: none;
+    }
+    #menu-burguer {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    /* Apresentação empresa */
+    .text-presentation{
+        font-size: 1em;
+        text-align: justify;
+    }
+    .text-presentation > h3{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    /*  Instruções de pedido    */
+    #montage > h3{
+        font-size: 2.5em;
+    }
+    #montage > div {
+        font-size: 1em;
+    }
+
+
+    /*  Lista de produtos    */
+    #list-services > h2 {
+        font-size: 2.5em;
+    }
+    #list-services > h3 {
+        font-size: 1.5em;
+    }
+
+    /* Galeria */
+    #gallery > h3 {
+        font-size: 2.5em;
+    }
+
+    /*  Contato  */
+    .contact-numbers h3 {
+        font-size: 2em;
+    }
+    .contact-numbers p{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .contact-social h3 {
+        margin-top: 30px;
+        font-size: 2em;
+    }
+    .contact-social a{
+        font-size: 5em;
+    }
+    .contact p:hover{
+        color: white;
+    }
+
+    /*  Rodapé  */
+    footer {
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
+}

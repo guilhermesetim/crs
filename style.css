@@ -44,7 +44,7 @@
 /*header*/
 header{
     height: 100vh;
-    background: url('img/capa04.jpg') center right no-repeat;
+    background: url('img/capa.jpg') center right no-repeat;
     background-size: cover;
     
 }
@@ -130,11 +130,7 @@ header > div{
     padding: 50px 50px 20px;
 
 }
-.presentation-img{
-    height: 600px;
-    width: 500px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.623);
-}
+
 
 .text-presentation{
     font-size: 1.8em;
@@ -143,6 +139,9 @@ header > div{
 .text-presentation > h3{
     font-size: 3em;
     margin-bottom: 20px;
+}
+.text-presentation > p{
+    text-indent: 2em;
 }
 
 /* montage */
@@ -212,47 +211,47 @@ header > div{
 }
 
 .tag-camiseta{
-    background: gray url(img/tag01.jpg) center center no-repeat;
+    background: gray url(img/tags/tag01.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-polo{
-    background:  url(img/tag02.png) right top no-repeat;
+    background:  url(img/tags/tag02.jpg) right top no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-social{
-    background: gray url(img/tag03.png) center center no-repeat;
+    background: gray url(img/tags/tag03.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-calca{
-    background: gray url(img/tag05.png) center bottom no-repeat;
+    background: gray url(img/tags/tag04.jpg) center bottom no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-moletom{
-    background: gray url(img/tag06.png) center center no-repeat;
+    background: gray url(img/tags/tag05.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-bone{
-    background: gray url(img/tag04.png) center center no-repeat;
+    background: gray url(img/tags/tag06.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-jaqueta{
-    background: gray url(img/tag07.png) center top no-repeat;
+    background: gray url(img/tags/tag07.jpg) center top no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .tag-sueter{
-    background: gray url(img/tag08.png) center top no-repeat;
+    background: gray url(img/tags/tag08.jpg) center top no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 .graf{
-    background: gray url(img/tag30.jpg) center bottom no-repeat;
+    background: gray url(img/tags/tag-grafica.jpg) center bottom no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -293,7 +292,7 @@ header > div{
 /* Contact */
 
 .contact {
-    background: url('img/contato04.jpg') center center no-repeat;
+    background: url('img/contato.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;

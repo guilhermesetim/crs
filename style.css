@@ -275,9 +275,34 @@ header > div{
     background-attachment: fixed;
 }
 
+/*  Portifólio  */
+#portifolio {
+    background: var(--cor-sombra);
+    padding: 50px 5%;   
+}
+#portifolio > h3 {
+    color: var(--cor-branco);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 4em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.521);
+}
+.portifolio-ideia {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px 5px;
+    border: 5px solid var(--cor-branco);
+}
+
+.portifolio-ideia:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px var(--cor-branco);
+}
+
+
 /* Galeria */
 #gallery {
-    background: var(--cor-sombra);
+    background: var(--cor-branco);
     padding: 50px 5%;
     
 }
@@ -288,22 +313,22 @@ header > div{
    justify-content: center;
 }
 #gallery > h3 {
-    color: var(--cor-branco);
+    color: var(--cor-preto);
     text-align: center;
     margin-bottom: 30px;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .gallery-ideia {
     height: 300px;
     width: 300px;
     border-radius: 5px 5px;
-    border: 5px solid var(--cor-branco);
+    border: 5px solid var(--cor-preto);
 }
 
 .gallery-ideia:hover {
     transition: 0.3s;
-    box-shadow: 0px 0px 15px var(--cor-branco);
+    box-shadow: 0px 0px 30px var(--cor-cinza);
 }
 
 

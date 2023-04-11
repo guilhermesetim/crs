@@ -72,6 +72,11 @@
         font-size: 1.5em;
     }
 
+    /*  Portifolio  */
+    #portifolio > h3 {
+        font-size: 2.5em;
+    }
+
     /* Galeria */
     #gallery > h3 {
         font-size: 2.5em;
